@@ -3,3 +3,5 @@ dist/
 nova-gx-release/
 *.log
 .DS_Store
+
+third_party/cef/Release/
