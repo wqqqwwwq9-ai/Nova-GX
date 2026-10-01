@@ -1,0 +1,5 @@
+node_modules/
+dist/
+nova-gx-release/
+*.log
+.DS_Store

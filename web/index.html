@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nova GX</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<aside class="rail">
+  <div class="logo">N</div>
+  <button class="rail-btn active">⌂</button>
+  <button class="rail-btn" id="tabsBtn">▤</button>
+  <button class="rail-btn">◈</button>
+  <div class="grow"></div>
+  <button class="rail-btn" id="accentBtn">✦</button>
+  <!-- Here is your settings/credits button! -->
+  <button class="rail-btn" id="settingsBtn">⚙</button>
+</aside>
+
+<section class="browser">
+  <div class="tabbar">
+    <div id="tabs"></div>
+    <button id="newTab">＋</button>
+  </div>
+
+  <div class="nav">
+    <button id="back">‹</button>
+    <button id="forward">›</button>
+    <button id="reload">↻</button>
+    <button id="home">⌂</button>
+    <div class="address">
+      <span>⌕</span>
+      <input id="address" autocomplete="off" placeholder="Search or enter web address">
+    </div>
+    <button id="menu">⋮</button>
+  </div>
+
+  <main id="content"></main>
+</section>
+<script src="renderer.js"></script>
+</body>
+</html>
